@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>title</title>
+    </head>
+    <body>
+    <script>
+        "use strict";
+    
+        console.log("Welcome to the Dalida's Coffee shop!");
+        const name = prompt("Enter your name.");
+        let basket = null;
+        let goods={
+            "cappuccino":{
+                "madeOf": ["milk" , "milk foam" , "espresso" ],
+                "price":"1100",
+                "origin": undefined,
+                "isTasty": true
+            },
+            "latte":{
+                "madeOf": ["milk foam","steamed milk","espresso"],
+                "price":"1200"
+            },
+            "americano":{
+                "madeOf": ["hot water","espresso"],
+                "price":"850"
+            },
+            "cortado":{
+                "madeOf": ["steamed milk","espresso"],
+                "price":"1000"
+            }
+        }
+        goods.anyFunc = function (){
+            return 'Madik loh';
+        }
+        console.log(goods.anyFunc())
+        delete goods.latte.price;
+        let myArray = [1,2,3,6,6,6,7,8,9,10];
+        console.log(myArray.pop());
+        console.log(myArray.push(11));
+        console.log(myArray.shift(10));
+        console.log(myArray.unshift());
+        let sixes  =  myArray.filter((myArray) => myArray === 6);
+        console.log(sixes);
+        let who = "not";
+        let anchik = ["is ", ...who,"gay"];
+        console.log(anchik);
+        function stupidCounter (myArray){
+            console.log(`I am counting ${myArray} 11 12 13`);
+        }
+        stupidCounter(myArray);
+        for (let i=1;i<11;i++){
+            console.log(i*3);
+        }
+        let j=5;
+        while (j>0){
+            console.log(j);
+            j--;
+
+        }
+        do {
+        console.log("ya ustal pzdc");
+        j++;}
+        while (j<1);
+        let countMyArray = () => {
+        console.log(myArray.length);
+        };
+        countMyArray(); 
+        if (wrf<z1033g){
+            pork.sound;}
+            
+    </script>
+    </body>
+</html>
